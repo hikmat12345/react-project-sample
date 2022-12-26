@@ -1,0 +1,10 @@
+<svg id="Group_7114" data-name="Group 7114" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <rect id="Rectangle_2104" data-name="Rectangle 2104" width="24" height="24" fill="#fff" opacity="0"/>
+  <g id="Clock" transform="translate(6 6)" opacity="0.997">
+    <g id="Ellipse" fill="none" stroke="#d39d34" stroke-width="1">
+      <circle cx="6" cy="6" r="6" stroke="none"/>
+      <circle cx="6" cy="6" r="5.5" fill="none"/>
+    </g>
+    <path id="Vector" d="M0,0V3.149L1.574,4.723" transform="translate(6.054 3.772)" fill="none" stroke="#d39d34" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2"/>
+  </g>
+</svg>

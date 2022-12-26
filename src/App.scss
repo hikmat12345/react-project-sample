@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300;400&display=swap");
+@import "./mediaQueries.scss";
+ 
+* {
+  font-family: 'IBM Plex Sans Arabic', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+p,
+a {
+  font-size: 14px;
+}
+
+h6 {
+  font-size: 16px;
+  font-weight: 100;
+}
+
+h5 {
+  font-size: 18px;
+  font-weight: 100;
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: 100;
+}
+
+h3 {
+  font-size: 22px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h1 {
+  font-size: 26px;
+}
+ 
+
+.dpr {
+  padding-right: 1%;
+}
+
+.dpl {
+  padding-left: 1%;
+}
+
+.dpb {
+  padding-bottom: 30px;
+}
+
+.dpt {
+  padding-top: 30px;
+}
+
+.dp {
+  padding: 1%;
+}
+// colors 
+ $default-button-bg: #DDB669;
+ $primary-button-bg: #FAEEEF;
+ $gray-bg-color: #F5F9F9;
+ 
+ $default-text-color:#EBECEF;
+ $primary-text-color: #173039;
+ $secondary-text-color: #8A8C99;
+ $pink-text-color:#D55A5F;
+ 
+ $activ-bg: #F5F9F9;
+ $secondary-table-bg: #F5F9F9;
+ $primary-bg-table:#F6EBD3;
+ $default-table-bg: #FFFFFF;
+ $secondary-bg-color:#173039;
+
+  
+$default-section-gap: 10px; 
+$default-side-padding: 1%;
+
+@mixin flex($propert1, $property2) {
+  display: flex;
+  justify-content: $propert1;
+  align-items: $property2;
+}
+
+$container-bg-primary: rgba(244, 244, 244, 1);
+ 
+ 
+.pb{
+  padding-bottom: 10px;
+}
+.pl{
+  padding-left: 10px;
+}
+.pt{
+  padding-top: 10px;
+}
+.pr{
+  padding-right: 10px;
+}
+.pointer {
+  cursor: pointer;
+}
+ 
+html {
+  scroll-behavior: smooth;
+}
+ 
+ 

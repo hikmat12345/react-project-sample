@@ -1,0 +1,5 @@
+@import "../../App.scss";
+.fae--page-not-found-main-container {
+  @include flex(center, center);
+  flex-direction: column;
+}

@@ -1,0 +1,120 @@
+@import "../../mediaQueries.scss";
+@import "../../App.scss";
+ 
+.page-each-info-unit {
+  width: 95%;
+  @include flex(space-between, center);
+}
+ .tp-table-main-container{
+  padding: 40px;
+  background-color: $gray-bg-color;
+    .tp-table-main-container tr > td:last-of-type, .tp-table-main-container th:last-of-type:before {
+       border: initial;
+     }
+
+    .tp-table-head{
+      background-color:  $secondary-bg-color;
+      img{
+        position: relative;
+        right: 6px;
+      }
+      th{
+        position: relative;
+      } 
+      th:before {
+        content: '';
+        height: 47%;
+        width: 2px;
+        position: absolute;
+        right: 0;
+        top: 14px;
+        background-color: $secondary-text-color;
+      }
+    }
+    tbody td, tbody th {
+      /* border-left: 2px solid; */
+       border-right: 2px solid #7c7c7c30 !important;
+       border-width: initial !important;
+    }
+    .tp-notif-icon{
+       img {
+        position: relative;
+        top: 7px; 
+       }
+    }
+    .tp-loading-icon, .tp-phone-icon{
+      position: relative;
+      top: 10px;
+    }
+    .tp-pagination{
+      padding-top: 20px;
+      padding-bottom: 20px;
+
+     .css-yuzg60-MuiButtonBase-root-MuiPaginationItem-root.Mui-selected {
+        background-color: $default-button-bg !important;
+        border-radius: 4px;
+        color:  $default-text-color;
+      }
+      button {
+        background-color: $gray-bg-color !important;
+        border-radius: 3px !important;
+        padding: 0;
+      }
+  }
+   
+
+
+  //   .tp-table-head th:before {
+  //     background-color: #feffff;
+  //     color: #EBECEF;
+  //     content: "";
+  //     height: 29px;
+  //     padding: 0px;
+  //     margin-right: 4px;
+  //     width: 1px !important;
+  //     position: absolute;
+  // }
+    $default-button-bg: #DDB669;
+    $primary-button-bg: #FAEEEF;
+    $gray-bg-color: #F5F9F9;
+    
+    $default-text-color:#EBECEF;
+    $primary-text-color: #173039;
+    $secondary-text-color: #8A8C99;
+    $pink-text-color:#D55A5F;
+    
+    $activ-bg: #F5F9F9;
+    $secondary-table-bg: #F5F9F9;
+    $default-table-bg: #FFFFFF;
+    $secondary-bg-color:#173039;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+@include tablet {
+  .details-and-method-container {
+    width: 95%;
+  }
+  .fae--summary-address-field {
+    width: 80%;
+  }
+}
+@include mobile {
+  .fae-success-sum {
+    width: 25%; 
+    margin-top: -44px;
+  }
+ 
+}
+
+ 
